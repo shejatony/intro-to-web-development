@@ -11,3 +11,127 @@
 }
 
 /* Write your code below this */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 12px;
+}
+.hero {
+  background-image: url('images/hero.png');
+  height: 500px;
+  padding-top: 150px;
+  padding-left: 103px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.journey-card {
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 40px;
+    color:gray;
+  }
+
+  .journey-image {
+    border-radius: 25px;
+    margin-bottom: 25px;
+  }
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.about {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.about .title {
+    text-align: center;
+}
+
+.about .content {
+    text-align: center;
+}
+
+.about h2 {
+    color: black;
+    margin-bottom: 1rem;
+}
+.goals {
+  height: 250px;
+  width: 100%;
+  background-color: gainsboro;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.goals .title {
+  text-align: center;
+}
+
+.goals h2 {
+color: black;
+margin-bottom: 1rem;
+}
+.goals .content {
+  text-align: center;
+}
+.footer {
+  background-color: rgba(12, 6, 6, 0.833);
+  height: 50px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
