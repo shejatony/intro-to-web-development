@@ -51,4 +51,4 @@ function changeBackgroundColor(color){
     }
     
     window.addEventListener('load', updateFooterYear);
-    document.addEventListener('DOMContentLoaded', updateFooterYear);
+    document.addEventListener('DOMContentLoaded', updateFooterYear)
